@@ -7,7 +7,7 @@ type = "contact"
 
 Para cualquier consulta,
 
-duda o peticion...
+duda o peticion
 
 no dudes en
 
