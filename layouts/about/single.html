@@ -5,7 +5,9 @@
                 <img class="cutout" src="{{ "/img/nosotros.jpg" | relURL }}">
             </div>
             <div class="about-message">
-                <img src="{{ "/img/el-jardin-electrico-hero.jpg" | relURL }}" style="width: 100%">
+                <video autoplay muted>
+                    <source src="{{ "video/logo-middle.mp4" | relURL }}" type="video/mp4">
+                </video>
                 {{ .Content }}
             </div>
         </div>
