@@ -1,0 +1,14 @@
+<header>
+	<a href="{{ .Site.BaseURL }}">
+        <img src="{{ "img/logo.jpg" | relURL }}" width="80">
+    </a>
+	<nav>
+		<ul class="animated">
+            {{ range where .Site.RegularPages "Name" "!=" "Inicio" }}
+            <li><a href="{{ .Permalink }}" style="color: {{ .Params.color | safeCSS }}">{{ .Name }}</a></li>
+            {{ end }}
+		</ul>
+        {{ partial "hamburger" . }}
+	</nav>
+</header>
+

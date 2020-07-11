@@ -1,0 +1,12 @@
+{{ define "main" }}
+	<main>
+        <div class="hero">
+            <div class="about-picture">
+                <img class="cutout" src="{{ "/img/nosotros.jpg" | relURL }}">
+            </div>
+            <div class="about-message">
+                {{ .Content }}
+            </div>
+        </div>
+	</main>
+{{ end }}

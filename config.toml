@@ -1,0 +1,5 @@
+languageCode = "es-es"
+title = "El Jardín Eléctrico"
+
+[markup.goldmark.renderer]
+unsafe= true
