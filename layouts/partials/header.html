@@ -1,7 +1,7 @@
 <header>
 	<a href="{{ with .Site.GetPage "/home" }}{{ .RelPermalink }}{{ end }}">
         {{ if eq .Kind "home" }}
-        <video autoplay>
+        <video autoplay muted>
             <source src="{{ "video/logo.mp4" | relURL }}" type="video/mp4">
         </video>
         {{ else }}
