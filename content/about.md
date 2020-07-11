@@ -5,6 +5,7 @@ color = "#6f57f1"
 type = "about"
 +++
 
+
 El Jardín Eléctrico es un lugar mágico
 
 donde puedes encontrar música y personajes fantásticos...
