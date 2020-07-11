@@ -1,6 +1,12 @@
 <header>
-	<a href="{{ .Site.BaseURL }}">
+	<a href="{{ with .Site.GetPage "/home" }}{{ .RelPermalink }}{{ end }}">
+        {{ if eq .Kind "home" }}
+        <video autoplay>
+            <source src="{{ "video/logo.mp4" | relURL }}" type="video/mp4">
+        </video>
+        {{ else }}
         <img src="{{ "img/logo.jpg" | relURL }}" width="80">
+        {{ end }}
     </a>
 	<nav>
 		<ul class="animated">
